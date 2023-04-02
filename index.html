@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portafolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme"
+          class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(0, 98%, 45%)" class="colors__item colors__item--red"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!--Tarjeta de perfil-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2><div class="card__title">Carlos Murillo</div></h2>
+            <p class="card__subtitle">Front end developer</p>
+          </div>
+          <p class="card__text">
+            Soy un estudiante apasionado por las nuevas tecnologias 
+            llevo 2 años estudiando programacion orientada a objetos,
+            y enfocada a el desarrollo web, me gusta experimentar nuevas 
+            cosasa y soy apacionado por aprender, cabe resaltar que aprendo
+            rapido y me gustan los desafios. <br>
+            Mi proposito es hacer que esta carrera que es mi pasion no solo
+            se quede en mi pasion sino que tambien estoy tratndo de ejercerla,
+            por ende me estoy esforzando para lograrlo.
+          </p>
+          <div class="card__body">
+            <i class="fas fa-envelope icon"></i>
+            <div class="card__link">
+              <a href="mailto:murillobecerracarlosalberto@gmail.com">murillobecerracarlosalberto@gmail.com</a>
+            </div>
+          </div>
+          <div class="card__body">
+            <i class="fas fa-phone-alt icon"></i>
+            <div class="card__link">
+              <a href="Tel:3225153468">+57 3225153468</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                nov 2021 - current
+              </p>
+              <h3 class="experience__job">Content Creator</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consectetur maiores,
+                 esse temporibus aut delectus expedita. Pariatur exercitationem, dolorem ut nesciunt excepturi
+                 dignissimos deleniti eos dolor laboriosam doloribus iste dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                nov 2021 - current
+              </p>
+              <h3 class="experience__job">Content Creator</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consectetur maiores,
+                 esse temporibus aut delectus expedita. Pariatur exercitationem, dolorem ut nesciunt excepturi
+                 dignissimos deleniti eos dolor laboriosam doloribus iste dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                nov 2021 - current
+              </p>
+              <h3 class="experience__job">Content Creator</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consectetur maiores,
+                 esse temporibus aut delectus expedita. Pariatur exercitationem, dolorem ut nesciunt excepturi
+                 dignissimos deleniti eos dolor laboriosam doloribus iste dolorum.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="my hobbie">
+          </div>
+          <h3 class="hobbie__title">Gameplay</h3>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Neque repellendus omnis aut itaque molestiae magni aliquid atque,
+             quia rem? Nihil veniam eligendi error molestiae ullam sequi temporibus ducimus repudiandae deserunt.</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">.NET</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Desing</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photshop</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Filmora</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ilustrador</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+          </div>
+        </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Desing</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photshop</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Filmora</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ilustrador</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+          </div>
+        </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt=" My proyecto" 
+            class="card__image">
+          </div>
+          <div class="project">
+            <span class="project__tags">#HTML</span>
+            <span class="project__tags">#CSS</span>
+            <span class="project__tags">#JavaScript</span>
+            <span class="project__tags">#Responsive</span>
+
+            <h2 class="card__title"> My first project</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+             Voluptatem, fugiat. Ex aperiam ratione dolore sunt.</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+             Voluptatem, fugiat. Ex aperiam ratione dolore sunt.
+            </p>
+             <div class="buttons">
+               <a href="#" class="button button--primary">Demo</a>
+               <a href="#" class="button button--ghost">Code</a>
+             </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt=" My proyecto" 
+            class="card__image">
+          </div>
+          <div class="project">
+            <span class="project__tags">#HTML</span>
+            <span class="project__tags">#CSS</span>
+            <span class="project__tags">#JavaScript</span>
+            <span class="project__tags">#Responsive</span>
+
+            <h2 class="card__title"> My first project</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+             Voluptatem, fugiat. Ex aperiam ratione dolore sunt.</p>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+             Voluptatem, fugiat. Ex aperiam ratione dolore sunt.
+            </p>
+             <div class="buttons">
+               <a href="#" class="button button--primary">Demo</a>
+               <a href="#" class="button button--ghost">Code</a>
+             </div>
+          </div>
+        </article>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project.jpg" alt=" My proyecto" 
+          class="card__image">
+        </div>
+        <div class="project">
+          <span class="project__tags">#HTML</span>
+          <span class="project__tags">#CSS</span>
+          <span class="project__tags">#JavaScript</span>
+          <span class="project__tags">#Responsive</span>
+
+          <h2 class="card__title"> My first project</h2>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+           Voluptatem, fugiat. Ex aperiam ratione dolore sunt.</p>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+           Voluptatem, fugiat. Ex aperiam ratione dolore sunt.
+          </p>
+           <div class="buttons">
+             <a href="#" class="button button--primary">Demo</a>
+             <a href="#" class="button button--ghost">Code</a>
+           </div>
+        </div>
+      </article>
+    </article>
+    <article class="card card--project">
+      <div class="card__image-container">
+        <img src="assets/images/project.jpg" alt=" My proyecto" 
+        class="card__image">
+      </div>
+      <div class="project">
+        <span class="project__tags">#HTML</span>
+        <span class="project__tags">#CSS</span>
+        <span class="project__tags">#JavaScript</span>
+        <span class="project__tags">#Resposnive</span>
+
+        <h2 class="card__title"> My first project</h2>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+         Voluptatem, fugiat. Ex aperiam ratione dolore sunt.</p>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+         Voluptatem, fugiat. Ex aperiam ratione dolore sunt.
+        </p>
+         <div class="buttons">
+           <a href="#" class="button button--primary">Demo</a>
+           <a href="#" class="button button--ghost">Code</a>
+         </div>
+      </div>
+    </article>
+  </article>
+  <article class="card card--project">
+    <div class="card__image-container">
+      <img src="assets/images/project.jpg" alt=" My proyecto" 
+      class="card__image">
+    </div>
+    <div class="project">
+      <span class="project__tags">#HTML</span>
+      <span class="project__tags">#CSS</span>
+      <span class="project__tags">#JavaScript</span>
+      <span class="project__tags">#Responsive</span>
+
+      <h2 class="card__title"> My first project</h2>
+      <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+       Voluptatem, fugiat. Ex aperiam ratione dolore sunt.</p>
+      <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Dicta eos totam quaerat reiciendis veritatis quidem eius nobis mollitia soluta modi, deleniti, sit harum.
+       Voluptatem, fugiat. Ex aperiam ratione dolore sunt.
+      </p>
+       <div class="buttons">
+         <a href="#" class="button button--primary">Demo</a>
+         <a href="#" class="button button--ghost">Code</a>
+       </div>
+    </div>
+  </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
